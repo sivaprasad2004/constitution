@@ -1,0 +1,94 @@
+/* Parallax effect */
+.parallax {
+    background-image: url('https://pbs.twimg.com/media/GWIuXqtWUAA3Y0d.jpg'); /* Add your background image here */
+    height: 400px; /* Adjust based on your needs */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Submit Button Styling */
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Stylish Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1; /* Ensure it stays on top */
+}
+
+.navbar a {
+    padding: 14px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
+    border-radius: 5px;
+}
+
+/* Add padding to the content so it doesn't overlap with the fixed navbar */
+.content {
+    padding: 120px 20px; /* Adjust based on navbar height */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.content h1 {
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Flexbox for contests */
+.contests-container {
+    display: flex;
+    justify-content: space-around; /* Space between the containers */
+    padding: 40px 0;
+}
+
+.contest-box {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%; /* Each container takes 30% of the width */
+    text-align: center;
+}
+
+.contest-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contest-box p {
+    font-size: 16px;
+    color: #666;
+}
